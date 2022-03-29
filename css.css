@@ -1,0 +1,131 @@
+footer {
+    font-size: 23px ;
+}
+.all {
+    background-color: gray;
+}
+.center {
+    text-align: center;;
+    background-color: black;
+    border-width: 3px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px ;
+    color:white ;
+    margin: 60px ;
+}
+.center1 {
+    text-align: center;
+    border-width: 4px ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 24.5px ;
+    color: black ;
+    margin-left: 330px ;
+    margin-right: 200px ;
+  }
+
+ .center2 {
+        border-width: 4px ;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-size: 24.5px ;
+        color: black ;
+        margin-left: 330px ;
+  }   
+  .center3 { 
+    text-align: center;
+    border-width: 4px ;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 24.5px ;
+    color: black ;
+}
+ .center4 {
+    text-align:center;
+    border-width: 4px ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 24.5px ;
+    color: black ;
+    margin-left: 50px ;
+    line-height: 2em;
+}
+.center5 {
+    border-width: 4px ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 24.5px ;
+    color: black ;
+    margin-left: 50px ;
+}
+.center6 {
+    text-align: center;
+    border-width: 4px ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 26px ;
+    color: black ;
+    margin-left: 67px;
+    margin-right: 67px;
+    margin-top: 2px;
+}
+.center7 {
+    border-width: 4px ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 24.5px ;
+    color: black ;
+    margin-left: 200px ;
+    margin-right:300px;
+} 
+.center8 {
+    border-width: 4px ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 24.5px ;
+    color: black ;
+    margin-left: 300px ;
+}
+html {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
+.wrapper{
+    display: flex;
+    position: absolute;
+    z-index: 100;
+}
+.wrapper .sidebar
+{
+    position: sticky;
+    z-index: 100;
+    width: 250px;
+    height: 100%;
+    background-color:black;
+    padding: 10px ;
+    font-size: 20px;
+    margin-left: 50px; ;
+}
+.wrapper .sidebar h2
+{
+    color:white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.wrapper .sidebar ul li
+{
+    padding: 12px;
+    border-bottom:1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,255,0.05);
+
+}
+.wrapper .sidebar ul li a
+{
+    color: white;
+    display:block;
+}
+.wrapper .sidebar ul li a i.fa
+{
+    border-width: 25px;
+}
+.wrapper .sidebar ul li:hover
+{
+    background-color:rgb(83, 80, 80);
+}

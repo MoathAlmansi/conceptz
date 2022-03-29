@@ -1,0 +1,44 @@
+﻿.center {
+    text-align: center;
+    border: 3px solid orange;
+    border-width: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    color: white;
+    margin: 60px;
+}
+
+.center1 {
+    text-align: center;
+    border: 3px orange;
+    border-width: 4px;
+    font-family: impact;
+    font-size: 38px;
+    color: black;
+    margin: 150px;
+    background-color: white;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.center3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px
+}
+
+.footer2 {
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+.footer1 {
+    text-align: center;
+    font-size: 25px;
+    color: yellow;  
+}
